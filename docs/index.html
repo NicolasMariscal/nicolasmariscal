@@ -25,7 +25,7 @@
 
         nav ul li {
             display: inline;
-            margin-right: 20px;
+            
         }
 
         nav ul li a {
@@ -36,6 +36,23 @@
         nav ul li a:hover {
             color: #ccc;
         }
+		#about{
+		padding-top: 40px;
+		min-height: 20dvh; 
+		color: red;
+		}
+		#projects{
+		padding-top: 40px;
+		min-height: 100dvh; 
+		color: blue;
+		}
+		#proficiencies{
+		padding-top: 40px;
+		min-height: 20dvh; 
+		color: green;
+		}
+		
+	
     </style>
 </head>
 <body>
@@ -47,248 +64,156 @@
         </ul>
     </nav>
     <header>
-        <h1>My Engineering Projects Portfolio</h1>
+        <h1>Engineering		 Projects	 Portfolio</h1>
+		<h2>Nicolas Mariscal</h2>
+		
     </header>
     <main>
         <section id="about">
             <h2>About Me</h2>
-            <p>Write a brief introduction about yourself and your expertise as a mechanical engineer. 
-Write a brief introduction about yourself and your expertise as a mechanical engineer.
-Write a brief introduction about yourself and your expertise as a mechanical engineer.
-Write a brief introduction about yourself and your expertise as a mechanical engineer.
-Write a brief introduction about yourself and your expertise as a mechanical engineer.
-Write a brief introduction about yourself and your expertise as a mechanical engineer.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                
-Write a brief introduction about yourself and your expertise as a mechanical engineer.
-Write a brief introduction about yourself and your expertise as a mechanical engineer.
-Write a brief introduction about yourself and your expertise as a mechanical engineer.
-</p>
+            <p>My job title currently is Production Equipment Technician Intern.
+			My main duties are to support the equipment used throughout the facilities. 
+			I achieve this through working on maintenance issues that occur with machines,
+			along with designing new solutions for improved production capabilities. 
+			These solutions include existing equipment modifications for expanding capacity and/or capabilities. </p>
         </section>
         <section id="projects">
             <h2>Projects</h2>
             <!-- Add your projects here -->
             <div class="project">
-                <h3>Project Title 1</h3>
-                <p>Description of Project 1.
-Description of Project 1.
-Description of Project 1.
-Description of Project 1.
-Description of Project 1.
-Description of Project 1.
-Description of Project 1.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                    
-Description of Project 1.
-Description of Project 1.
-Description of Project 1.</p>
+			
+			
+                <h3>Cryiovial Conversion Project</h3>
+                <p>Issue: The current process of manufacturing a Cryiovial product relies on a great deal of labor throughout the entire production. (The vials come unsorted in plastic bags, where an operator must then unscrew each cap and place the vial onto on a tray. This tray then holds 200 vials where they may be filled with a set of 18-25 plastic beads. An operator then manually fills each vial with 15 milliliters of deionized water. The final process involves tightening each cap and placing them back on the tray.) The main issues faced are the tightening and untightening of each cap of the vials along with dispensing a constant amount of plastic beads within the vials (18-25).
+Design Solution: A conversion of a previously constructed machine to handle the new vials is being made. The design features an mechanical orientator that preloads the vials onto an indexing wheel. The vial cap is then removed, and the gets a range of plastic beads from 18-25 and then filled with 15 mL of deionized water. The cap is then placed back on the vial and feed out of the machine by a small conveyor belt.</p>
                 <!-- Add links to photos and documents -->
                 <a href="project1_photo.jpg" target="_blank">View Photo</a>
                 <a href="project1_document.pdf" target="_blank">View Document</a>
             </div>
             <div class="project">
-                <h3>Project Title 2</h3>
-                <p>Description of Project 2.
-Description of Project 2.
-Description of Project 2.
-Description of Project 2.
-Description of Project 2.
+			
+			
+                <h3>Label Machine Retrofit</h3>
+                <p>Issue: A large volume of envelopes of two different sizes require labels which were manually placed. 
+Solution: A manual feed label applying machine was purchased from a 3rd party vendor. This machine was modified to accept an auto feed mechanism which dispensed envelopes of two sizes.
+Design Lesson: The machine went through a few different designs to dispense the envelopes. 
+The first design relied on a roller on the top of the stack of envelopes, which would roll off the top envelope. This design would be problematic as the roller would have to continuously move down with the stack, as well as the parts that would keep the envelopes from sticking together. 
+The second design was based off a printer dispensing design. The envelope stack would be placed on the top of the “printer” rolls, and the envelopes would dispense through a series of rollers. While this design made it to the prototyping stage, the design proved to be ineffective. This was due to the warping effect that the envelopes would have due to a seam they carried. This warp would bend the stack of envelopes and prevent them from feeding into the printer mechanism.
+The final design was a rotating vacuum system that would drop the envelopes onto the labeling conveyor. This design had a stack that would lift towards the vacuum system and rotate once a vacuum was detected. A few changes were made, such as an additional roller feeder having to be implemented. This was due to the envelopes needing to be closer to the conveyor to properly feed. An envelope separating mechanism was designed to break apart stacks from sticking together. This increased reliability of the single feed, with no double feeds detected after implementation. 
 
+Final Design
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                    
-Description of Project 2.
-Description of Project 2.
-Description of Project 2.
-Description of Project 2.
-Description of Project 2.
-Description of Project 2.
-Description of Project 2.</p>
+				</p>
                 <!-- Add links to photos and documents -->
                 <a href="project2_photo.jpg" target="_blank">View Photo</a>
                 <a href="project2_document.pdf" target="_blank">View Document</a>
             </div>
+			
+			
+			<h3>Conveyor FDA</h3>
+                <p>Issue: A new wrapping film was implemented on the FDA bagger which had an increased adhesion to the labels we used. The old conveyor was flat, which allowed the product to roll around and not always align itself with the label dispenser. These two features combined did not allow for manual adjustment of the product labels, which lead to product defects.
+Solution: A redesign of the conveyor was needed to prevent the rolling of the petri dishes. Two polyurethane bands were used to keep the product centered throughout the conveyor. With no rolling, the amount of product defects decreased significantly. 
+Design Lesson: While the conveyor worked flawlessly when used in isolation, a few problems arose when combined with the rotating transfer arm used to load the petri dishes. An extension had to be designed to help support the dishes when dropped, as they were found to tilt backwards when loaded. The bands also needed to have the plates drop along the center axis of conveyor. This was due to the rolling force that would be applied when only one band would contact the plates. A guide was manufactured to help plates align with the bands.
+</p>
+                <!-- Add links to photos and documents -->
+                <a href="project2_photo.jpg" target="_blank">View Photo</a>
+                <a href="project2_document.pdf" target="_blank">View Document</a>
+            </div>
+			
+			
+			<h3>Peristaltic Pump Roller Redesign</h3>
+                <p>Issue: Old design of rollers would have pins loosen due to wear and age. These pins would then slide out of the enclosure and score the aluminum housing, resulting in decreased performance of rollers. 
+Solution: The Roller was designed with a slip fit that allowed for easy removal and installation of pins. The blind hole would hold the pins and remove the possibility of gouging the housing.
+Design Lesson: The original rollers were made to last a long time and performed without fail for around 10 years. While great when working, repairing the rollers would reduce reliability and lead to more failures. This led me to a design that would offer the same benefits as the original while being more maintenance friendly. 
+</p>
+                <!-- Add links to photos and documents -->
+                <a href="project2_photo.jpg" target="_blank">View Photo</a>
+                <a href="project2_document.pdf" target="_blank">View Document</a>
+            </div>
+			
+			
+			<h3>Mixer mount redesign</h3>
+                <p>Issue: The old motors that were in use for the Reactors became obsolete and a replacement motor was need. The new motor came with a mounting configuration which had to be fitted with current mixer mounts. 
+Solution: Use new mounting configuration to create a custom bracket for new motor and existing mixer bracket. A new shaft was also designed to connect motor and mixer magnet.
+</p>
+                <!-- Add links to photos and documents -->
+                <a href="project2_photo.jpg" target="_blank">View Photo</a>
+                <a href="project2_document.pdf" target="_blank">View Document</a>
+            </div>
+			
+			
+			<h3>HEPA Support for Tube Machine</h3>
+                <p>Issue: A machine was being transferred from one area to a newly built section and needed a new HEPA unit support directly above the unit.
+Solution: 3D models of the HEPA units were constructed and dimensions of the final placement of the machine were taken. A frame was then designed to attach itself to the wall and floor through bolts. 
+Design Lesson: While the same final dimension for the frame was made, the way the frame was constructed was changed later by the welder we contracted. He decided to make use of removeable legs to ease transport and installation of the frame. In my original idea, I proposed welding the entire frame together which in hindsight would have made the whole unit too bulky to transport and install. As someone more experienced than I was in construction and assembly, he greatly improved my original design and showed a great alternative.
+</p>
+                <!-- Add links to photos and documents -->
+                <a href="project2_photo.jpg" target="_blank">View Photo</a>
+                <a href="project2_document.pdf" target="_blank">View Document</a>
+            </div>
+			
+			
+			<h3>109 Installation Support and Parts Redesign</h3>
+                <p>Issue: A new tube filling machine was installed with a theoretical output of 4000 test tubes an hour. After installation was done, it was found that parts needed to be redesigned to help reach the theoretical limit of the machine. The increase of speed of the machine would cause the labeling mechanism to tear the line of labels.
+Solution: A main issue found was that the cap loader vibratory bowl could not keep up with the machine. The failure point was traced to a bracket which would reject too many caps from loading. The bracket was redesigned and increased throughput of the acceptance rate. For the labels, a 
+</p>
+                <!-- Add links to photos and documents -->
+                <a href="project2_photo.jpg" target="_blank">View Photo</a>
+                <a href="project2_document.pdf" target="_blank">View Document</a>
+            </div>
+			
+			
+			<h3>Flask Machine Bracket redesign</h3>
+                <p>Issue: A flask filling machine was contracted to be built to replace an older setup of the same process. A 4-pronged nozzle head rested on a bracket which connected it to the linear servo. This bracket had too much tolerance where it rested and caused the nozzles to crash into the flasks whenever it failed to have enough clearance. The bracket was then rendered inoperative due to the bending of the nozzles.
+Solution: A bracket and nozzle head was remade in SolidWorks with a few features changed. The bracket was made more supportive with more material for the nozzle head to rest on. This alone made the crash rate almost nonexistent, with 1 crash in 4 years possibly due to a previously bent nozzle. The nozzle head was made thicker as it had too much deviance in the previous fit. The 4 nozzles and nozzle head were separated and attached with set screws. This allowed for easy replacement of the nozzles in case of crashing and reduced cost. 
+</p>
+                <!-- Add links to photos and documents -->
+                <a href="project2_photo.jpg" target="_blank">View Photo</a>
+                <a href="project2_document.pdf" target="_blank">View Document</a>
+            </div>
+			
+			
+			<h3>V blender safety Gate</h3>
+                <p>Issue: A new V-Blender was ordered and required a safety gate to kill all power to the machine when undergoing cleaning or maintenance. 
+Solution: A 3d model was constructed of the machine and a custom bracket was designed to house the safety switch. A bar was then designed that would pivot and only allow operation during the down/operating position. 
+Design Lessons: As this was the first project after gaining an AutoCAD Drafting certification, I had much to learn. I learned by double checking the machine and 3d model to ensure dimensions were correct. I also got advice on the bar I was designing where instead of multiple parts bolted together, a single bent piece would be easier to manufacture and assemble.
+</p>
+                <!-- Add links to photos and documents -->
+                <a href="project2_photo.jpg" target="_blank">View Photo</a>
+                <a href="project2_document.pdf" target="_blank">View Document</a>
+            </div>
+			
+			
+			<h3>Vial Plastic Inserts</h3>
+                <p>Issue: A new vial was purposed to be run through a cap tightening machine, with a diameter smaller than the machine was designed for. 
+Solution: A plastic adapter was designed for easy swap and removal between vial sizes. It would include a rubber O-ring which would ensure a tight fit and concentricity of the adapter. 
+</p>
+                <!-- Add links to photos and documents -->
+                <a href="project2_photo.jpg" target="_blank">View Photo</a>
+                <a href="project2_document.pdf" target="_blank">View Document</a>
+            </div>
+			
+			
             <!-- Add more projects as needed -->
         </section>
         <section id="proficiencies">
             <h2>Proficiencies</h2>
             <p>
-Write about your skills and proficiencies as a mechanical engineer.
-Write about your skills and proficiencies as a mechanical engineer.
-Write about your skills and proficiencies as a mechanical engineer.
-Write about your skills and proficiencies as a mechanical engineer.
-Write about your skills and proficiencies as a mechanical engineer.
-Write about your skills and proficiencies as a mechanical engineer.
-Write about your skills and proficiencies as a mechanical engineer.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                
-Write about your skills and proficiencies as a mechanical engineer.
-Write about your skills and proficiencies as a mechanical engineer.
-Write about your skills and proficiencies as a mechanical engineer.
-Write about your skills and proficiencies as a mechanical engineer.
-Write about your skills and proficiencies as a mechanical engineer.
-Write about your skills and proficiencies as a mechanical engineer.
-Write about your skills and proficiencies as a mechanical engineer.</p>
+Software
+AutoCAD • SolidWorks Simulation • Java • C++ • Microsoft Office • MATLAB • Femap Nastran• 
+ • Linear Actuator Programming • General Machine Software Troubleshooting / Debugging
+Machine Skills	Spoken Languages
+Electromechanical Troubleshooting • Additive Prototype
+Printing Additive Printing Band Saw • Table Mill • Drill Press •
+Angle Grinder 
+	English (Native) •
+Spanish (Proficient)
+</p>
         </section>
         <!-- Add more sections as needed -->
     </main>
     <footer>
-        <p>&copy; 2024 Your Name</p>
+        <p>&copy; 2024 Nicolas Mariscal</p>
     </footer>
 </body>
 </html>
